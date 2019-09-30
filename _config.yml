@@ -16,9 +16,9 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  #Contact:
-    #url: /contact
-    #icon: fas fa-comments
+  Contact:
+    url: /contact
+    icon: fas fa-comments
   Friends:
     url: /friends
     icon: fas fa-address-book
@@ -26,9 +26,9 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  year: 2016 # 年份
+  month: 10 # 月份
+  date: 01 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -319,8 +319,8 @@ googleAnalytics:
 # 添加 baidu Analytics 配置
 baiduAnalytics:
   enable: false
-  id: 
-  
+  id:
+
 # 百度搜索资源平台提交链接
 baiduPush: true
 
@@ -363,7 +363,7 @@ libs:
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
-featureImages: 
+featureImages:
 - /medias/featureimages/0.jpg
 - /medias/featureimages/1.jpg
 - /medias/featureimages/2.jpg
@@ -411,17 +411,17 @@ featureImages:
 reprint:
   enable: true # whether enable reprint section 是否启用“转载规则限定模块”
   default: cc_by
-  
-# DaoVoice online contact 
-daovoice: 
+
+# DaoVoice online contact
+daovoice:
   enable: true
   app_id:
-  
-# Tidio online contact 
+
+# Tidio online contact
 tidio:
   enable: false
-  public_key: 
- 
+  public_key:
+
 #背景canvas-nest
 canvas_nest:
   enable: false
@@ -453,10 +453,10 @@ sharejs:
 addthis:
   enable: false
   pubid:  #前往https://www.addthis.com/获取
-  
+
 # 打字效果副标题.
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
-subtitle: 
+subtitle:
   enable: true
   loop: true # 是否循环
   showCursor: true # 是否显示光标
@@ -465,7 +465,7 @@ subtitle:
   backSpeed: 50 # 删除速度
   sub1: 从来没有真正的绝境, 只有心灵的迷途
   sub2: Never really desperate, only the lost of the soul
-  
+
 # 手机二级菜单.
 navMenu:
   mleft: false # 二级侧栏子菜单是否对齐左边
